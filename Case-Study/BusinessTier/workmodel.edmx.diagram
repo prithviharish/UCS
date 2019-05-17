@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e900f9c704149bb9b4cec33241327d8" Name="Diagram1">
+        <EntityTypeShape EntityType="workModel.workout_active" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="workModel.workout_category" Width="1.5" PointX="0.625" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="workModel.workout_collection" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="workModel.FK__workout_a__worko__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="workModel.FK__workout_c__categ__1273C1CD" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
